@@ -1,14 +1,14 @@
-package main.java.list.OperacoesBasicas;
+package main.java.set.Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListaTarefa {
+public class ListaTarefas {
 
     //Atributo
     private List<Tarefa> tarefaList;
 
-    public ListaTarefa() {
+    public ListaTarefas() {
         this.tarefaList = new ArrayList<>();
     }
     //implementar os metodos
@@ -35,7 +35,7 @@ public class ListaTarefa {
         System.out.println(tarefaList);
     }
     public static void main(String[] args){
-        ListaTarefa listaTarefa = new ListaTarefa();
+        ListaTarefas listaTarefa = new ListaTarefas();
 
         System.out.println("O número total de elementos na lista é: " + listaTarefa.obterNumeroTotaltarefas());
 
